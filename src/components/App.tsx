@@ -21,7 +21,7 @@ function App() {
   } = styles;
   return (
     <>
-      <div className={container}>
+      <main className={container}>
         <div className={backgroundContainer}>
           <img src={background} alt="background" />
         </div>
@@ -59,7 +59,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   );
