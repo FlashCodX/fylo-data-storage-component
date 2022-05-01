@@ -1,0 +1,25 @@
+.container{
+  border-radius: 10px;
+  position: relative;
+  width: inherit;
+  background: var(--app-background);
+}
+
+.progress{
+  position: relative;
+  border-radius: 10px;
+  height:inherit;
+  height: 20px;
+  margin: 3px;
+  width: 70%;
+  background:linear-gradient(90deg,hsl(6, 100%, 80%),hsl(335, 100%, 65%))
+}
+
+.symbol{
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 90%;
+  background: white;
+}

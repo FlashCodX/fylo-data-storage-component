@@ -1,0 +1,26 @@
+.attribution{
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.attribution *{
+  margin: auto 5px;
+}
+
+.attribution a{
+  color: rgb(0, 255, 0);
+  font-weight:900;
+  text-decoration: none;
+}
+
+
+@media (max-width:768px) {
+  .attribution{
+    display: none;
+    visibility: collapse;
+  }
+}
